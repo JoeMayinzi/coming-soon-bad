@@ -15,7 +15,7 @@ body {
   height: 100vh;
 }
 
-img {
+.wrap img {
   width: 300px;
 }
 
@@ -40,4 +40,41 @@ h1 {
 
 .wrap-button a:hover {
   background-color: transparent;
+}
+
+.modal-content {
+  color: #000 !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-content img {
+  width: 150px;
+}
+
+.modal-content ul {
+  display: flex;
+  padding-left: 12px;
+}
+
+.modal-content ul li {
+  list-style: none;
+  margin-right: 15px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  border-radius: 100%;
+}
+
+.modal-footer {
+  border-top: none !important;
+  display: block !important;
+  color: #010951 !important;
+  padding-top: 0 !important ;
+}
+
+.modal-footer p {
+  margin-left: 12px;
 }
